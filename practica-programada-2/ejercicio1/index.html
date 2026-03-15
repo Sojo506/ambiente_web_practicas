@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cargas Sociales</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Bootstrap CSS -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> -->
+
+</head>
+
+<body>
+    <h1 class="title">1. Calculadora de Cargas Sociales</h1>
+    
+    <div class="container">
+
+        <div class="input-section">
+            <input type="number" required id="sueldo" placeholder="Ingrese el sueldo" min="0">
+            <button id="btn-calcular">Calcular</button>
+        </div>
+
+        <div class="results-section">
+            <h2 class="results-title">Resultados:</h2>
+
+            <div class="results-container">
+                <div class="results-data">
+                    <p>Monto de las cargas sociales: <span id="monto-cargas"></span></p>
+                </div>
+
+                <div class="results-data">
+                    <p>Monto del impuesto de renta: <span id="monto-impuesto-renta"></span></p>
+                </div>
+
+                <div class="results-data">
+                    <p>Monto del salario neto: <span id="monto-salario-neto"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Bootstrap JS -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script> -->
+</body>
+
+</html>
